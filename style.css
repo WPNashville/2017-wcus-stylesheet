@@ -22,6 +22,11 @@ body.custom-background, body {
 	font-weight: 200;
 	letter-spacing: 0.1em;
 }
+.site-title {
+	font-family: "unit-gothic-719";
+	text-transform: uppercase;
+	letter-spacing: .05em;
+}
 .site-footer {
 	background-color: #262335;
 }
