@@ -1,0 +1,385 @@
+.clear {
+	display: block;
+	clear: both;
+	float: none;
+}
+
+/*Main Divs*/
+body.custom-background, body {
+	background: transparent url("https://2016.nashville.wordcamp.org/files/2016/06/2016-wcnash-background-big.png") no-repeat fixed right top;
+	color: #666;
+}
+.hentry {
+	background-color: rgba(256,256,245,.9);
+	margin-top: 40px;
+}
+.entry-footer {
+	background-color: rgba(209,176,27,.6);
+}
+.sticky-post {
+	background-color: #211C07;
+	font-family: "unit-gothic-719";
+	font-weight: 200;
+	letter-spacing: 0.1em;
+}
+.site-footer {
+	background-color: #262335;
+}
+.page-header {
+	background-color: #211c07;
+}
+@media screen and (min-width: 38.75em) {
+	.page-header {
+		border-left: 0 solid #FFF;
+	}
+}
+@media screen and (min-width: 59.6875em) {
+	body::before {
+		background-color: transparent;
+	}
+	.sidebar {
+		background-color: #EBDFC7;
+		border-right: 12px solid #262335;
+		border-left: 1px solid #D3C9B3;
+	}
+}
+/* Typography */
+h1, h2, h3, h4, h5, h6 {
+	font-weight: 200;
+	font-family: "unit-gothic-719";
+	color: #262335;
+}
+.entry-title {
+	color: #211C07;
+	font-family: "hwt-american-solid";
+	font-weight: 200;
+}
+.widget-title {
+	font-family: "hwt-american-solid";
+	color: #256E12;
+}
+.comments-title, .comment-reply-title, .author-heading, .post-navigation .post-title, .page-title {
+	font-family: "hwt-american-solid";
+	font-weight: 200;
+}
+.page-title { color: #ebdfc7; }
+.entry-content ul {
+	margin-left: 2rem;
+}
+/* Links */
+a {
+	text-decoration: none;
+	color: #298c83;
+}
+.entry-content a, .entry-summary a, .page-content a, .comment-content a, .pingback .comment-body > a {
+	border-bottom: 1px solid #298c83;
+}
+a:hover, a:focus {
+	color: #256E12;
+}
+.main-navigation a {
+	font-family: "unit-gothic-719";
+	font-size: 150%;
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
+}
+.main-navigation .current-menu-item > a, .main-navigation .current-menu-ancestor > a {
+	font-weight: 200;
+	color: #256E12;
+}
+.site-info a {
+	color: #ebdfc7;
+}
+.site-info a:hover, .site-info a:focus {
+	color: #FFF;
+}
+/* Buttons */
+button, input[type="button"], input[type="reset"], input[type="submit"] {
+	background-color: #bf2b0b;
+	font-family: "unit-gothic-719";
+	font-weight: 200;
+}
+button:hover,
+input[type="button"]:hover,
+input[type="reset"]:hover,
+input[type="submit"]:hover,
+button:focus,
+input[type="button"]:focus,
+input[type="reset"]:focus,
+input[type="submit"]:focus {
+	background-color: #d63750;
+	outline: 0;
+}
+
+/**
+ * Sponsor pages
+ */
+.type-wcb_sponsor > .post-thumbnail,
+.type-wcb_sponsor > .entry-header,
+.type-wcb_sponsor .author-info {
+	display: none;
+}
+
+.type-wcb_sponsor .post-thumbnail a {
+	border: none;
+	display: inline-block;
+	margin-top: 2em;
+}
+
+.type-wcb_sponsor .post-thumbnail img {
+	display: inline-block;
+}
+
+/**
+ * The Sponsor page
+ */
+.wcorg-sponsor-description > img, .wcorg-sponsor > h3 {
+    display: none;
+}
+
+.wcorg-sponsor-description .post-thumbnail {
+    margin-bottom: 0 !important
+}
+
+.wcorg-sponsor-description .post-thumbnail a {
+    border-bottom: none;
+}
+
+.wcorg-sponsor-description .post-thumbnail img {
+    display:inline-block;
+}
+
+.wcorg-sponsor-description h1.entry-title {
+    margin-top: 1em;
+    font-size: 1.25em
+}
+
+/**
+ * Attendees Page
+ */
+
+#tix-attendees li {
+	height: auto;
+	text-align: center;
+}
+
+#tix-attendees li a {
+	border: none;
+}
+
+#tix-attendees .tix-field {
+	margin-left: 0;
+}
+
+#tix-attendees li img.avatar {
+	float: none;
+	width: auto;
+	height: auto;
+	border: 4px solid;
+	border-color: transparent;
+	-webkit-transition: border-color 250ms;
+	transition: border-color 250ms;
+}
+
+#tix-attendees li:hover img.avatar { 
+	border-color: #D63750;
+}
+
+#tix-attendees li:nth-child(2n):hover img.avatar {
+	border-color: #256E12;
+}
+
+#tix-attendees li:nth-child(3n):hover img.avatar {
+	border-color: #298C83;
+}
+
+#tix-attendees li:nth-child(5n):hover img.avatar {
+	border-color: #D1B01B;
+}
+
+#tix-attendees li:nth-child(7n):hover img.avatar {
+	border-color: #262335;
+}
+
+ul.tix-attendee-list li:nth-child(3n+1) {
+    clear:both;
+}
+
+/**
+ * Schedule Page
+ */
+.wcpt-schedule a {
+    border-bottom: none;
+}
+
+.wcpt-schedule a:hover {
+    border-bottom: thin solid;
+}
+
+.wcpt-schedule {
+    font-size: 14px;
+}
+
+a.wcpt-session-title:after {
+    content: " - ";
+}
+
+span.wcpt-session-speakers {
+    font-weight: bold;
+}
+
+.wcpt-schedule td {
+    position: relative;
+}
+
+/** Lightning talks **/
+.entry-content > h1:first-child + .wcpt-schedule .wcpt-time-1000am td:nth-child(2),
+.entry-content > h1:first-child + .wcpt-schedule .wcpt-time-1000am td:nth-child(3),
+.entry-content > h1:first-child + .wcpt-schedule .wcpt-time-100pm td:last-child {
+    border-bottom-width: 0;
+}
+
+.entry-content > h1:first-child + .wcpt-schedule .wcpt-time-1000am td:last-child,
+.entry-content > h1:first-child + .wcpt-schedule .wcpt-time-1030am td:last-child,
+.entry-content > h1:first-child + .wcpt-schedule .wcpt-time-100pm td:nth-child(2),
+.entry-content > h1:first-child + .wcpt-schedule .wcpt-time-100pm td:nth-child(3),
+.entry-content > h1:first-child + .wcpt-schedule .wcpt-time-130pm td:nth-child(2),
+.entry-content > h1:first-child + .wcpt-schedule .wcpt-time-130pm td:nth-child(3) {
+    background: rgba(209, 176, 27, 0.22);
+}
+
+.entry-content > h1:first-child + .wcpt-schedule .wcpt-time-1000am td:last-child:after,
+.entry-content > h1:first-child + .wcpt-schedule .wcpt-time-1000am td:last-child:before,
+.entry-content > h1:first-child + .wcpt-schedule .wcpt-time-1030am td:last-child:after,
+.entry-content > h1:first-child + .wcpt-schedule .wcpt-time-1030am td:last-child:before,
+.entry-content > h1:first-child + .wcpt-schedule .wcpt-time-100pm td:nth-child(2):after,
+.entry-content > h1:first-child + .wcpt-schedule .wcpt-time-100pm td:nth-child(2):before,
+.entry-content > h1:first-child + .wcpt-schedule .wcpt-time-100pm td:nth-child(3):after,
+.entry-content > h1:first-child + .wcpt-schedule .wcpt-time-100pm td:nth-child(3):before,
+.entry-content > h1:first-child + .wcpt-schedule .wcpt-time-130pm td:nth-child(2):after,
+.entry-content > h1:first-child + .wcpt-schedule .wcpt-time-130pm td:nth-child(2):before,
+.entry-content > h1:first-child + .wcpt-schedule .wcpt-time-130pm td:nth-child(3):after,
+.entry-content > h1:first-child + .wcpt-schedule .wcpt-time-130pm td:nth-child(3):before {
+    font-size:25px;
+    font-family: dashicons;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    transform: scale(.5, 1.5) rotate(10deg);
+}
+.entry-content > h1:first-child + .wcpt-schedule .wcpt-time-1000am td:last-child:after,
+.entry-content > h1:first-child + .wcpt-schedule .wcpt-time-1030am td:last-child:after,
+.entry-content > h1:first-child + .wcpt-schedule .wcpt-time-100pm td:nth-child(2):after,
+.entry-content > h1:first-child + .wcpt-schedule .wcpt-time-100pm td:nth-child(3):after,
+.entry-content > h1:first-child + .wcpt-schedule .wcpt-time-130pm td:nth-child(2):after,
+.entry-content > h1:first-child + .wcpt-schedule .wcpt-time-130pm td:nth-child(3):after {
+    content: "\f140";
+    bottom: -5px;
+    right: 2px;
+}
+.entry-content > h1:first-child + .wcpt-schedule .wcpt-time-1000am td:last-child:before,
+.entry-content > h1:first-child + .wcpt-schedule .wcpt-time-1030am td:last-child:before,
+.entry-content > h1:first-child + .wcpt-schedule .wcpt-time-100pm td:nth-child(2):before,
+.entry-content > h1:first-child + .wcpt-schedule .wcpt-time-100pm td:nth-child(3):before,
+.entry-content > h1:first-child + .wcpt-schedule .wcpt-time-130pm td:nth-child(2):before,
+.entry-content > h1:first-child + .wcpt-schedule .wcpt-time-130pm td:nth-child(3):before {
+    content: "\f142";
+}
+
+.note-box p {
+    font-size: 12px;
+    margin-bottom: 0;
+    font-style: italic;
+}
+
+.yellow-highlight {
+    background: rgba(209, 176, 27, 0.3);
+    padding: 0.5em;
+    font-weight: bold;
+}
+
+/**
+ * Ticket Form
+ */
+#tix {
+    padding-top: 0 !important;
+}
+
+#tix h2 {
+    margin-top: 0;
+}
+
+.tix_tickets_table:not(.tix-order-summary):not(.tix-attendee-form),
+.tix_tickets_table:not(.tix-order-summary):not(.tix-attendee-form) tr {
+    border: none;
+    display: block;
+}
+
+.tix_tickets_table:not(.tix-order-summary):not(.tix-attendee-form) thead {
+    display: none
+}
+
+.tix_tickets_table:not(.tix-order-summary):not(.tix-attendee-form) tr:not(.tix-row-coupon) {
+    border-bottom: thin solid;
+    margin-bottom: .75em;
+    padding-bottom: .75em;
+    position: relative;
+}
+
+.tix_tickets_table tr.tix-row-coupon td {
+	width: 100%;
+}
+
+.tix_tickets_table #tix-coupon-container {
+    text-align: left;
+}
+
+.tix_tickets_table #tix-coupon-container > input[type="text"] {
+    width: 70%;
+    display: inline-block;
+}
+
+.tix_tickets_table:not(.tix-order-summary):not(.tix-attendee-form) td {
+    display:inline-block;
+    border: none;
+    vertical-align: top;
+    margin: 0;
+}
+
+.tix_tickets_table:not(.tix-order-summary):not(.tix-attendee-form) td.tix-column-description {
+    width: 60% !important;
+}
+
+.tix_tickets_table:not(.tix-order-summary):not(.tix-attendee-form) span.tix-ticket-excerpt {
+    font-size: .7em;
+    display: inline-block;
+    line-height: 1.5em;
+}
+
+.tix_tickets_table:not(.tix-order-summary):not(.tix-attendee-form) td.tix-column-remaining:after {
+    content: "Remaining";
+    margin-left: .5em;
+}
+
+.tix_tickets_table:not(.tix-order-summary):not(.tix-attendee-form) td.tix-column-price {
+    font-style: italic;
+    font-weight: bold;
+}
+
+.tix_tickets_table:not(.tix-order-summary):not(.tix-attendee-form) td.tix-column-price,
+.tix_tickets_table:not(.tix-order-summary):not(.tix-attendee-form) td.tix-column-remaining {
+    width: 19%;
+    font-size: .8em;
+    text-align:right
+}
+
+.tix_tickets_table:not(.tix-order-summary):not(.tix-attendee-form) td.tix-column-quantity {
+    position: absolute;
+    right:0;
+    bottom:.75em;
+}
+
+// Hide tix remaining
+.tix_tickets_table:not(.tix-order-summary):not(.tix-attendee-form) thead {
+    display: none;
+}
