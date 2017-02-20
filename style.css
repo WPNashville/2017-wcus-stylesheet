@@ -149,7 +149,7 @@ ol.headed-ol {
 	list-style-type: none;
 	margin-left: 0;
 }
-.headed-ol ol > li {
+ol.headed-ol > li {
 	counter-increment: step-counter;
 }
 .headed-ol > li > h3::before {
