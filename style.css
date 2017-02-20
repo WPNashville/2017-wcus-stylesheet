@@ -137,6 +137,30 @@ button:hover, button:focus, input[type="button"]:hover, input[type="button"]:foc
   background-color: #C8EBEB;
 }
 
+/* List Styles */
+
+ul, ol, li > ul, li > ol {
+    margin-bottom: 1.5em;
+    margin-left: 1.5em;
+}
+
+/* Style for an ol with h3 headers in each li (like code of conduct) */
+ol.headed-ol {
+	list-style-type: none;
+	margin-left: 0;
+}
+.headed-ol ol > li {
+	counter-increment: step-counter;
+}
+.headed-ol > li > h3::before {
+    content: counter(step-counter);
+    margin-right: 15px;
+    font-family: 'BioRhyme';
+    font-size: 2em;
+    font-weight: 300;
+    color: #8D3D46;
+}
+
 /* Hide tix remaining */
 td.tix-column-remaining, th.tix-column-remaining {
     display: none;
