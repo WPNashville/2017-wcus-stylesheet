@@ -139,6 +139,6 @@ button:hover, button:focus, input[type="button"]:hover, input[type="button"]:foc
 }
 
 /* Hide tix remaining */
-.tix_tickets_table:not(.tix-order-summary):not(.tix-attendee-form) thead {
+td.tix-column-remaining {
     display: none;
 }
