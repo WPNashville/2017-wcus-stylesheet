@@ -138,6 +138,6 @@ button:hover, button:focus, input[type="button"]:hover, input[type="button"]:foc
 }
 
 /* Hide tix remaining */
-td.tix-column-remaining {
+td.tix-column-remaining, th.tix-column-remaining {
     display: none;
 }
