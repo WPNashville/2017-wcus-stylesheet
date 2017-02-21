@@ -6,7 +6,10 @@
 }
 
 /* Typography */
-body { font-family: 'Nunito', sans-serif; color: #111; }
+body {
+	font-family: 'Nunito', sans-serif;
+	color: #111;
+}
 h1, h2, .page .panel-content .recent-posts .entry-title {
 	color: #000;
 	font-family: 'BioRhyme';
@@ -14,8 +17,11 @@ h1, h2, .page .panel-content .recent-posts .entry-title {
 	text-transform: uppercase;
 	letter-spacing: .05em;
 }
-h2 {font-weight: 400;}
-h3 { text-transform: uppercase;
+h2 {
+	font-weight: 400;
+}
+h3 {
+	text-transform: uppercase;
 	font-weight: 700;
 	letter-spacing: .05em;
 }
@@ -28,8 +34,8 @@ h3 { text-transform: uppercase;
 }
 
 blockquote {
-  font-family: 'courier-prime';
-  font-style: normal;
+  font-family: 'courier-prime', Courier, monospace;
+  font-style: italic;
   border-color: #000;
   border-left: 3px solid #000;
   padding-left: 1em;
@@ -43,8 +49,8 @@ blockquote p:last-child {
   color: #000;
   font-size: 14px;
   font-size: 0.9rem;
-  font-style: normal;
-  font-family: 'courier-prime';
+  font-style: italic;
+	font-family: 'courier-prime', Courier, monospace;
 }
 .wp-caption .wp-caption-text {
   border-bottom: 3px solid #000;
@@ -53,7 +59,7 @@ blockquote p:last-child {
 
 /* Header area */
 .site-branding {
-  background-color: 	#EAE4E3;
+  background-color: #EAE4E3;
 }
 .site-title, .site-title a {
   color: #000;
@@ -62,7 +68,8 @@ blockquote p:last-child {
 }
 .site-description {
   color: #000;
-  font-family: 'courier-prime';
+	font-family: 'courier-prime', Courier, monospace;
+	font-style: italic;
 }
 
 /* Main navigation */
@@ -126,7 +133,8 @@ button:hover, button:focus, input[type="button"]:hover, input[type="button"]:foc
 
 /* Comment area */
 .comment-author {
-	font-family: 'courier-prime';
+	font-family: 'courier-prime', Courier, monospace;
+	font-style: italic;
 }
 .comment-author .avatar {
   border-radius: 50%;
@@ -140,8 +148,8 @@ button:hover, button:focus, input[type="button"]:hover, input[type="button"]:foc
 /* List Styles */
 
 ul, ol, li > ul, li > ol {
-    margin-bottom: 1.5em;
-    margin-left: 1.5em;
+  margin-bottom: 1.5em;
+  margin-left: 1.5em;
 }
 
 /* Style for an ol with h3 headers in each li (like code of conduct) */
@@ -153,15 +161,15 @@ ol.headed-ol > li {
 	counter-increment: step-counter;
 }
 .headed-ol > li > h3::before {
-    content: counter(step-counter);
-    margin-right: 15px;
-    font-family: 'BioRhyme';
-    font-size: 2em;
-    font-weight: 300;
-    color: #8D3D46;
+  content: counter(step-counter);
+  margin-right: 15px;
+  font-family: 'BioRhyme';
+  font-size: 2em;
+  font-weight: 300;
+  color: #8D3D46;
 }
 
 /* Hide tix remaining */
 td.tix-column-remaining, th.tix-column-remaining {
-    display: none;
+  display: none;
 }
