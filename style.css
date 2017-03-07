@@ -124,7 +124,7 @@ blockquote p:last-child {
 }
 
 /* Buttons */
-button, input[type="button"], input[type="submit"] {
+button, .button, input[type="button"], input[type="submit"] {
   background-color: transparent;
   border: 3px solid #222;
   -webkit-border-radius: 10px;
@@ -135,7 +135,7 @@ button, input[type="button"], input[type="submit"] {
   letter-spacing: .1em;
 	font-family: Nunito;
 }
-button:hover, button:focus, input[type="button"]:hover, input[type="button"]:focus, input[type="submit"]:hover, input[type="submit"]:focus {
+button:hover, button:focus, .button:hover, .button:focus, input[type="button"]:hover, input[type="button"]:focus, input[type="submit"]:hover, input[type="submit"]:focus {
   background: #E1D7D6;
 }
 
