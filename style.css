@@ -61,6 +61,9 @@ blockquote p:last-child {
 .site-branding {
   background-color: #EAE4E3;
 }
+.home .site-branding {
+	background-color: transparent;
+}
 .site-title, .site-title a {
   color: #000;
   font-family: 'BioRhyme';
