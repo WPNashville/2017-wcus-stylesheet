@@ -71,6 +71,12 @@ blockquote p:last-child {
 	font-family: 'courier-prime', Courier, monospace;
 	font-style: italic;
 }
+.home .site-branding {
+    background-color: transparent;
+}
+.home .site-branding .wrap {
+    display: none;
+}
 
 /* Main navigation */
 .navigation-top {
