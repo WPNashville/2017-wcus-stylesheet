@@ -64,6 +64,9 @@ blockquote p:last-child {
 .home .site-branding {
 	background-color: transparent;
 }
+.home .site-branding .wrap {
+		display: none;
+}
 .site-title, .site-title a {
   color: #000;
   font-family: 'BioRhyme';
@@ -77,9 +80,6 @@ blockquote p:last-child {
 @media screen and (min-width: 900px) {
 	.home .site-branding {
 	    background-color: transparent;
-	}
-	.home .site-branding .wrap {
-	    display: none;
 	}
 }
 
