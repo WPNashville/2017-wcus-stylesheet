@@ -134,6 +134,8 @@ button, a.button, input[type="button"], input[type="submit"] {
   text-transform: uppercase;
   letter-spacing: .1em;
 	font-family: Nunito;
+	padding: 0.75em 2em;
+	font-weight: 600;
 }
 button:hover, a.button:focus, a.button:hover, .button:focus, input[type="button"]:hover, input[type="button"]:focus, input[type="submit"]:hover, input[type="submit"]:focus {
   background: #E1D7D6;
