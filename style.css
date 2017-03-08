@@ -67,6 +67,34 @@ blockquote p:last-child {
 .home .site-branding .wrap {
 		display: none;
 }
+@media screen and ( max-width: 900px ) {
+	.home .site-branding .wrap {
+		display: block;
+		background: rgba(255,255,255,.70);
+		padding-top: 2vh;
+		padding-bottom: 2vh;
+	}
+}
+
+@media screen and ( max-width: 480px ) {
+	.home .site-branding .wrap {
+		text-align: center;
+		background: transparent;
+	}
+
+	body.home.has-header-image .site-title a,
+	body.home.has-header-image .site-description {
+		color: #fff
+	}
+
+	.home .custom-logo-link img {
+		max-height: 200px;
+		filter: invert(100%);
+		padding-top: 2vh;
+		padding-bottom: 2vh;
+	}
+}
+
 .site-title, .site-title a {
   color: #000;
   font-family: 'BioRhyme';
