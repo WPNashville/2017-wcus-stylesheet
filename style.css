@@ -213,6 +213,17 @@ ol.headed-ol > li {
   color: #8D3D46;
 }
 
+/* Org shortcode */
+.wcorg-organizer .wcorg-organizer-description {
+    padding-left: 6rem;
+    min-height: 5rem;
+}
+.wcorg-organizer .avatar {
+		float: left;
+    margin-left: -6rem;
+    width: 5rem;
+}
+
 /* Hide tix remaining */
 td.tix-column-remaining, th.tix-column-remaining {
   display: none;
