@@ -32,6 +32,9 @@ h3 {
 		font-weight: 300;
 	}
 }
+a {
+	color: #8d3d46;
+}
 
 blockquote {
   font-family: 'courier-prime', Courier, monospace;
